@@ -32,9 +32,7 @@ jobs:
                     - "!.github"
                     - "**/*.[tj]s"
                   push:
-                    branches:
-                    - main
-                    - dev
+                  - branches
               - on:
                   push:
                     tags:
